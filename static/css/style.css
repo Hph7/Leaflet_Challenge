@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.leaflet-interactive{
+  stroke-width: 0.5;
+  color: #aa2605;
+}
+
+/* CSS from the Leaflet-Choropleth documentation */
+.legend {
+  padding: 1px 1px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #555;
+  background: #fff;
+  opacity: 0.8;
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend i {
+  width: 14px;
+  height: 14px;
+  float: left;
+
+}
